@@ -1,0 +1,803 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="shortcut icon"
+      type="image/png"
+      href="./assets/imgs/icons/favicon.png"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+      integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./assets/css/grid.css" />
+    <link rel="stylesheet" href="./assets/css/showInfo.css" />
+    <script src="./assets/js/showInfo.js" type="text/javascript" defer></script>
+    <!-- <script
+			src="./assets/js/mouseEffect.js"
+			type="text/javascript"
+			defer
+		></script> -->
+    <title>TaiNH</title>
+  </head>
+  <body>
+    <div id="overlay">
+      <span class="overlay-text">L</span><span class="overlay-text">O</span
+      ><span class="overlay-text">A</span><span class="overlay-text">D</span
+      ><span class="overlay-text">I</span><span class="overlay-text">N</span
+      ><span class="overlay-text">G</span>
+    </div>
+    <div id="my-info" class="grid wide">
+      <!-- Header -->
+      <div class="info__header contain">
+        <div class="header__left">
+          <div class="avatar"></div>
+          <div class="right">
+            <div class="name">Nguyen Huu Tai</div>
+            <div class="description">
+              <i class="fa-solid fa-graduation-cap"></i> Student University of
+              Science and Technology - University of Da Nang
+            </div>
+            <div class="contact">
+              <a href="https://www.facebook.com/taifnguyenhuu/"
+                ><div class="contact-icon" style="--bgColor: #3b5998">
+                  <i class="fab fa-facebook-f"></i>
+                  <div class="icon-popup">Facebook</div>
+                </div></a
+              >
+              <a href="https://zalo.me/0987278468"
+                ><div class="contact-icon" style="--bgColor: #0a68fe">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    x="0px"
+                    y="0px"
+                    viewBox="0 0 48 48"
+                    style="fill: #000000"
+                  >
+                    <path
+                      fill="#2962ff"
+                      d="M15,36V6.827l-1.211-0.811C8.64,8.083,5,13.112,5,19v10c0,7.732,6.268,14,14,14h10	c4.722,0,8.883-2.348,11.417-5.931V36H15z"
+                    ></path>
+                    <path
+                      fill="#eee"
+                      d="M29,5H19c-1.845,0-3.601,0.366-5.214,1.014C10.453,9.25,8,14.528,8,19	c0,6.771,0.936,10.735,3.712,14.607c0.216,0.301,0.357,0.653,0.376,1.022c0.043,0.835-0.129,2.365-1.634,3.742	c-0.162,0.148-0.059,0.419,0.16,0.428c0.942,0.041,2.843-0.014,4.797-0.877c0.557-0.246,1.191-0.203,1.729,0.083	C20.453,39.764,24.333,40,28,40c4.676,0,9.339-1.04,12.417-2.916C42.038,34.799,43,32.014,43,29V19C43,11.268,36.732,5,29,5z"
+                    ></path>
+                    <path
+                      fill="#2962ff"
+                      d="M36.75,27C34.683,27,33,25.317,33,23.25s1.683-3.75,3.75-3.75s3.75,1.683,3.75,3.75	S38.817,27,36.75,27z M36.75,21c-1.24,0-2.25,1.01-2.25,2.25s1.01,2.25,2.25,2.25S39,24.49,39,23.25S37.99,21,36.75,21z"
+                    ></path>
+                    <path
+                      fill="#2962ff"
+                      d="M31.5,27h-1c-0.276,0-0.5-0.224-0.5-0.5V18h1.5V27z"
+                    ></path>
+                    <path
+                      fill="#2962ff"
+                      d="M27,19.75v0.519c-0.629-0.476-1.403-0.769-2.25-0.769c-2.067,0-3.75,1.683-3.75,3.75	S22.683,27,24.75,27c0.847,0,1.621-0.293,2.25-0.769V26.5c0,0.276,0.224,0.5,0.5,0.5h1v-7.25H27z M24.75,25.5	c-1.24,0-2.25-1.01-2.25-2.25S23.51,21,24.75,21S27,22.01,27,23.25S25.99,25.5,24.75,25.5z"
+                    ></path>
+                    <path
+                      fill="#2962ff"
+                      d="M21.25,18h-8v1.5h5.321L13,26h0.026c-0.163,0.211-0.276,0.463-0.276,0.75V27h7.5	c0.276,0,0.5-0.224,0.5-0.5v-1h-5.321L21,19h-0.026c0.163-0.211,0.276-0.463,0.276-0.75V18z"
+                    ></path>
+                  </svg>
+                  <div class="icon-popup">Zalo</div>
+                </div></a
+              >
+              <a href="https://vt.tiktok.com/ZSdFPxLF3/"
+                ><div class="contact-icon" style="--bgColor: black">
+                  <i class="fab fa-tiktok"></i>
+                  <div class="icon-popup">Tiktok</div>
+                </div></a
+              >
+              <a href="https://www.youtube.com/"
+                ><div class="contact-icon" style="--bgColor: #ea4335">
+                  <i class="fab fa-youtube"></i>
+                  <div class="icon-popup">Youtube</div>
+                </div></a
+              >
+            </div>
+          </div>
+        </div>
+
+        <div class="header__right">
+          <div class="row">
+            <div class="info-right col l-8 m-8 s-12">
+              <div class="name">Email</div>
+              <div class="description">taifnguyenhuu@gmail.com</div>
+            </div>
+            <div class="info-right col l-4 m-4 s-12">
+              <div class="name">Date of birth</div>
+              <div class="description">08/07/2000</div>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="info-right col l-8 m-8 s-12">
+              <div class="name">Phone number</div>
+              <div class="description">0987 278 468</div>
+            </div>
+            <div class="info-right col l-4 m-4 s-12">
+              <div class="name">Hometown</div>
+              <div class="description">Binh Dinh</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Body -->
+      <div class="info__body row">
+        <div class="col l-2 m-12 s-12">
+          <ul id="nav" class="contain">
+            <li class="nav-item active">
+              <script src="https://cdn.lordicon.com/lusqsztk.js"></script>
+              <lord-icon
+                src="https://cdn.lordicon.com/dxjqoygy.json"
+                trigger="morph"
+                style="width: 50px; height: 50px"
+              >
+              </lord-icon>
+              <div class="title">Myself</div>
+            </li>
+            <li class="nav-item">
+              <script src="https://cdn.lordicon.com/lusqsztk.js"></script>
+              <lord-icon
+                src="https://cdn.lordicon.com/wxnxiano.json"
+                trigger="morph"
+                style="width: 50px; height: 50px"
+              >
+              </lord-icon>
+              <div class="title">Education</div>
+            </li>
+            <li class="nav-item">
+              <script src="https://cdn.lordicon.com/lusqsztk.js"></script>
+              <lord-icon
+                src="https://cdn.lordicon.com/hpxruznz.json"
+                trigger="morph"
+                style="width: 50px; height: 50px"
+              >
+              </lord-icon>
+              <div class="title">Target</div>
+            </li>
+            <li class="nav-item">
+              <script src="https://cdn.lordicon.com/lusqsztk.js"></script>
+              <lord-icon
+                src="https://cdn.lordicon.com/rjzlnunf.json"
+                trigger="morph"
+                style="width: 50px; height: 50px"
+              >
+              </lord-icon>
+              <div class="title">Interest</div>
+            </li>
+          </ul>
+        </div>
+
+        <div class="col l-10 m-12 s-12">
+          <div id="content" class="contain">
+            <!-- Bản thân -->
+            <div class="content-item active">
+              <div class="sub-item">
+                <h1 class="big-title">Introduce</h1>
+                <p>
+                  My name is Nguyen Huu Tai, I'm currently a student at
+                  University of Science and Technology - University of Danang
+                  and majoring in Mechatronics Engineering.
+                </p>
+                <p>
+                  I'm quality orianted web developer who always want to do right
+                  things and do things right. Hence, I can collaborate very well
+                  with teammates meanwhile working indepandently is one of my
+                  strong points.
+                </p>
+              </div>
+              <div class="sub-item">
+                <h2 class="small-title">Some of my own projects</h2>
+                <div class="row">
+                  <div class="col l-6 m-6 s-12">
+                    <div class="i-did">
+                      <a href="https://taihn-tiktok.vercel.app/"
+                        ><div class="img">
+                          <img
+                            src="./assets/imgs/idid/tiktokUI.png"
+                            alt="TikTok Clone"
+                          /></div
+                      ></a>
+                      <h3 class="title">TikTok Clone</h3>
+                    </div>
+                  </div>
+                  <div class="col l-6 m-6 s-12">
+                    <div class="i-did">
+                      <a
+                        href="https://drive.google.com/file/d/1QyM-CPSkU6uCMFG4FqzpLnagzSp_PvDm/view"
+                        ><div class="img">
+                          <img
+                            src="./assets/imgs/idid/iot.jpg"
+                            alt="Internet of Things"
+                          /></div
+                      ></a>
+                      <h3 class="title">
+                        Application of Lora communication network in shrimp
+                        farming
+                      </h3>
+                    </div>
+                  </div>
+                  <div class="col l-6 m-6 s-12">
+                    <div class="i-did">
+                      <a href="https://taifnguyenhuu.github.io/ViiVue/"
+                        ><div class="img">
+                          <img
+                            src="./assets/imgs/idid/viivue.png"
+                            alt="Form Validation"
+                          /></div
+                      ></a>
+                      <h3 class="title">ViiVue Clone</h3>
+                    </div>
+                  </div>
+                  <div class="col l-6 m-6 s-12">
+                    <div class="i-did">
+                      <a href="https://taifnguyenhuu.github.io/ShopeeHome/"
+                        ><div class="img">
+                          <img
+                            src="./assets/imgs/idid/shopee.jpg"
+                            alt="ShopeeHome Clone"
+                          /></div
+                      ></a>
+                      <h3 class="title">ShopeeHome Clone</h3>
+                    </div>
+                  </div>
+                  <div class="col l-6 m-6 s-12">
+                    <div class="i-did">
+                      <a
+                        href="https://github.com/taifnguyenhuu/ReactJS-BookingCare"
+                        ><div class="img">
+                          <img
+                            src="./assets/imgs/idid/header-background.jpg"
+                            alt="BookingCare Clone"
+                          /></div
+                      ></a>
+                      <h3 class="title">BookingCare Clone</h3>
+                    </div>
+                  </div>
+                  <div class="col l-6 m-6 s-12">
+                    <div class="i-did">
+                      <a href="https://github.com/taifnguyenhuu/TheBand"
+                        ><div class="img">
+                          <img
+                            src="./assets/imgs/idid/theBand.png"
+                            alt="The Band"
+                          /></div
+                      ></a>
+                      <h3 class="title">The Band</h3>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="sub-item">
+                <h2 class="small-title">Inspirational quotes for yourself</h2>
+
+                <div class="slider">
+                  <div class="slide-main">
+                    <div class="slide-bar">
+                      <div class="slide-item">
+                        <div
+                          class="avatar"
+                          style="
+                            background-image: url('./assets/imgs/slider/bill-gates.jpg');
+                          "
+                        ></div>
+                        <div class="content">
+                          <h3>Bill Gates</h3>
+                          <p>
+                            choose lazy people to do hard things towel. Because
+                            a lazy person will find an easy way easy to do that.
+                          </p>
+                        </div>
+                      </div>
+
+                      <div class="slide-item">
+                        <div
+                          class="avatar"
+                          style="
+                            background-image: url('./assets/imgs/slider/anhson.jpg');
+                          "
+                        ></div>
+                        <div class="content">
+                          <h3>Son Dang</h3>
+                          <p>
+                            Stay calm to build a strong foundation! Those who
+                            don't have strong nails, get about 20 One floor
+                            can't be built anymore... try to build more...
+                            COLLAPSE!
+                          </p>
+                        </div>
+                      </div>
+
+                      <div class="slide-item">
+                        <div
+                          class="avatar"
+                          style="
+                            background-image: url('./assets/imgs/slider/mark-zuckerberg.jpg');
+                          "
+                        ></div>
+                        <div class="content">
+                          <h3>Mark Zuckerberg</h3>
+                          <p>
+                            Move fast and break the rules. If not yet breaking
+                            something, proves you are not moving fast enough.
+                          </p>
+                        </div>
+                      </div>
+
+                      <div class="slide-item">
+                        <div
+                          class="avatar"
+                          style="
+                            background-image: url('./assets/imgs/slider/warren.jpg');
+                          "
+                        ></div>
+                        <div class="content">
+                          <h3>Warren Edward Buffett</h3>
+                          <p>
+                            When one is sitting in the shade today it's because
+                            someone planted a tree before very long time.
+                          </p>
+                        </div>
+                      </div>
+
+                      <div class="slide-item">
+                        <div
+                          class="avatar"
+                          style="
+                            background-image: url('./assets/imgs/slider/bill-gates.jpg');
+                          "
+                        ></div>
+                        <div class="content">
+                          <h3>Bill Gates</h3>
+                          <p>
+                            I choose lazy people to do hard things towel.
+                            Because a lazy person will find an easy way easy to
+                            do that.
+                          </p>
+                        </div>
+                      </div>
+
+                      <div class="slide-item">
+                        <div
+                          class="avatar"
+                          style="
+                            background-image: url('./assets/imgs/slider/anhson.jpg');
+                          "
+                        ></div>
+                        <div class="content">
+                          <h3>Son Dang</h3>
+                          <p>
+                            Stay calm to build a strong foundation! Those who
+                            don't have strong nails, get about 20 One floor
+                            can't be built anymore... try to build more...
+                            COLLAPSE!
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="slide-dot">
+                    <!-- <span class="dot active"></span>
+                                    <span class="dot"></span>
+                                    <span class="dot"></span> -->
+                  </div>
+                  <div id="prev-slide">
+                    <i class="fas fa-angle-left"></i>
+                  </div>
+                  <div id="next-slide">
+                    <i class="fas fa-angle-right"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Education -->
+
+            <div class="content-item">
+              <div class="sub-item">
+                <h1 class="big-title">Education</h1>
+                <h2 class="icon-title">
+                  <img
+                    src="./assets/imgs/icons/education.png"
+                    alt=""
+                    class=""
+                  />
+                  Study process
+                </h2>
+
+                <div class="timeline">
+                  <h4 class="time">
+                    University of Science and Technology - University of Da Nang
+                    | 2018 - 2023
+                  </h4>
+                </div>
+                <div class="timeline">
+                  <h4 class="time">
+                    Hung Vuong Binh Dinh High School | 2015 - 2018
+                  </h4>
+                </div>
+              </div>
+
+              <div class="sub-item">
+                <h2 class="icon-title">
+                  <img src="./assets/imgs/icons/exp.png" alt="" class="" />
+                  Knowledge
+                </h2>
+
+                <div class="timeline">
+                  <h4 class="title">HTML</h4>
+                  <div class="time">HyperText Markup Language</div>
+                  <p>
+                    HTML is translated as "Hypertext Markup Language", it is
+                    used to create browser-visible documents. HTML is called a
+                    language, but it's not like languages scripting or
+                    programming language (using scripts to execute perform
+                    tasks), the HTML markup language uses tags to determine the
+                    content of the page.
+                  </p>
+                </div>
+                <div class="timeline">
+                  <h4 class="title">CSS</h4>
+                  <div class="time">Cascading Style Sheets</div>
+                  <p>
+                    CSS is a language used to find and reformat element created
+                    by markup language (HTML). Short talk It's more compact than
+                    a styling language for a website.
+                  </p>
+                </div>
+                <div class="timeline">
+                  <h4 class="title">JS</h4>
+                  <div class="time">JavaScript</div>
+                  <p>
+                    Javascript is a scripting language used Widely used in
+                    Website applications and supported almost on all browsers on
+                    both computers and phones. Javascript's job is to process
+                    the above HTML objects Browser. It can interfere with
+                    actions like adding / remove / edit CSS properties and HTML
+                    tags easily easy.
+                  </p>
+                </div>
+                <div class="timeline">
+                  <h4 class="title">C#</h4>
+                  <div class="time">C Sharp</div>
+                  <p>
+                    C# (C Sharp) is a powerful, general-purpose object-oriented
+                    programming language developed by Microsoft, C# being the
+                    beginning of their .NET plan. The name of the language
+                    includes the pound character according to Microsoft but
+                    according to ECMA it is C#, including only lowercase digits.
+                    Microsoft develops C# based on C++ and Java. C# is described
+                    as a language that has a balance between C++, Visual Basic,
+                    Delphi and Java.
+                  </p>
+                </div>
+              </div>
+
+              <div class="sub-item">
+                <h2 class="icon-title">My skills</h2>
+                <div class="skill">
+                  <div
+                    class="skill-progress"
+                    style="
+                      --skill-name: 'HTML (HyperText Markup Language)';
+                      --skill-percent: '50%';
+                      --percent: 50%;
+                    "
+                  ></div>
+                  <div
+                    class="skill-progress"
+                    style="
+                      --skill-name: 'CSS (Cascading Style Sheets)';
+                      --skill-percent: '50%';
+                      --percent: 50%;
+                    "
+                  ></div>
+                  <div
+                    class="skill-progress"
+                    style="
+                      --skill-name: 'JS (JavaScript)';
+                      --skill-percent: '50%';
+                      --percent: 50%;
+                    "
+                  ></div>
+                  <div
+                    class="skill-progress"
+                    style="
+                      --skill-name: 'C# (C Sharp)';
+                      --skill-percent: '50%';
+                      --percent: 50%;
+                    "
+                  ></div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Muc tieu -->
+            <div class="content-item">
+              <div class="sub-item">
+                <h1 class="big-title">Target</h1>
+                <h2 class="small-title">Goals in 2023</h2>
+
+                <div class="timeline">
+                  <h4 class="time">
+                    Frontend Developer (Intern - Fresher) | June 2023
+                  </h4>
+                </div>
+
+                <div class="timeline">
+                  <h4 class="time">
+                    Graduated well (University of Science and Technology -
+                    University of Danang) | September 2023
+                  </h4>
+                </div>
+
+                <div class="timeline">
+                  <h4 class="time">
+                    Get the certificate of foreign language TOEIC 750 plus |
+                    August 2023
+                  </h4>
+                </div>
+
+                <div class="timeline">
+                  <h4 class="time">Read at least 12 books | 2023</h4>
+                </div>
+
+                <div class="timeline">
+                  <h4 class="time">Financial independence | 2023</h4>
+                </div>
+
+                <div class="timeline">
+                  <h4 class="time">Someone loves | 2023</h4>
+                </div>
+              </div>
+
+              <div class="sub-item">
+                <h2 class="small-title">Long-term</h2>
+                <div class="timeline">
+                  <h4 class="time">
+                    Become a good well-qualified Developer with background
+                    knowledge of web design and development | Over a period of 1
+                    - 2 years
+                  </h4>
+                </div>
+                <div class="timeline">
+                  <h4 class="time">
+                    Fullstack developer can do frontend, backend and server to
+                    participate in large projects | Over a period of 3 - 5 years
+                  </h4>
+                </div>
+              </div>
+            </div>
+
+            <!-- Sở thích -->
+            <div class="content-item favourite">
+              <div class="sub-item">
+                <h1 class="big-title">Interest</h1>
+                <h2 class="icon-title">
+                  <img src="./assets/imgs/icons/open-book.png" alt="" />
+                  Learn new technologies
+                </h2>
+                <a href="https://openai.com/blog/chatgpt"
+                  ><div class="entertain">
+                    <div
+                      class="avatar"
+                      style="
+                        background-image: url('./assets/imgs/entertain/AI.jpg');
+                      "
+                    ></div>
+                    <div class="content">
+                      <h3>AI</h3>
+                      <p>
+                        AI (short for Artifical Intelligence) is a technology
+                        that simulates human thinking and learning processes for
+                        machines, especially computer systems. These processes
+                        include learning (gathering information and rules for
+                        using information), reasoning (using rules to reach
+                        approximate or definite conclusions), and
+                        self-correction. Special applications of AI include
+                        expert systems, speech recognition, and computer vision
+                        (recognition of faces, objects, or writing).
+                      </p>
+                    </div>
+                  </div></a
+                >
+                <a
+                  href="https://aws.amazon.com/vi/what-is/blockchain/?aws-products-all.sort-by=item.additionalFields.productNameLowercase&aws-products-all.sort-order=asc"
+                  ><div class="entertain">
+                    <div
+                      class="avatar"
+                      style="
+                        background-image: url('./assets/imgs/entertain/blockchain.jpg');
+                      "
+                    ></div>
+                    <div class="content">
+                      <h3>Blockchain</h3>
+                      <p>
+                        Blockchain technology is an advanced database mechanism
+                        that allows transparent information sharing within a
+                        business network. Blockchain databases store data in
+                        blocks that are linked together in a chain. The data has
+                        chronological consistency because you cannot delete or
+                        modify the chain without consensus from the network.
+                        Thus, you can use blockchain technology to create a
+                        ledger that cannot be edited or changed to keep track of
+                        orders, payments, accounts, and other transactions. The
+                        system has built-in mechanisms to prevent unauthorized
+                        transaction entries and create consistency in the
+                        overall view of these transactions.
+                      </p>
+                    </div>
+                  </div></a
+                >
+                <a href="https://www.oracle.com/big-data/what-is-big-data/"
+                  ><div class="entertain">
+                    <div
+                      class="avatar"
+                      style="
+                        background-image: url('./assets/imgs/entertain/bigdata.jpg');
+                      "
+                    ></div>
+                    <div class="content">
+                      <h3>Big Data</h3>
+                      <p>
+                        Big Data are large and complex data sets. So large that
+                        traditional data processing software is not capable of
+                        collecting, managing and processing data in a reasonable
+                        amount of time.
+                      </p>
+                    </div>
+                  </div></a
+                >
+              </div>
+
+              <div class="sub-item">
+                <h2 class="icon-title">
+                  <img src="./assets/imgs/icons/sports.png" alt="" />
+                  Sports
+                </h2>
+                <a href="https://vi.wikipedia.org/wiki/B%C3%B3ng_chuy%E1%BB%81n"
+                  ><div class="entertain">
+                    <div
+                      class="avatar"
+                      style="
+                        background-image: url('./assets/imgs/entertain/Volleyball.jpg');
+                      "
+                    ></div>
+                    <div class="content">
+                      <h3>Volleyball</h3>
+                      <p>
+                        Playing volleyball is one of the ways to increase your
+                        heart rate quickly. One of the most obvious benefits of
+                        playing volleyball is toned, sharper and more beautiful
+                        muscles. Unlike many people who think that only cardio
+                        is the best way to lose weight, in fact, cardio exercise
+                        combined with strength and endurance training is the
+                        method that brings the fastest weight loss results.
+                      </p>
+                    </div>
+                  </div></a
+                >
+
+                <a href="https://vi.wikipedia.org/wiki/B%C3%B3ng_%C4%91%C3%A1"
+                  ><div class="entertain">
+                    <div
+                      class="avatar"
+                      style="
+                        background-image: url('./assets/imgs/entertain/football.jpg');
+                      "
+                    ></div>
+                    <div class="content">
+                      <h3>Football</h3>
+                      <p>
+                        Dubbed the king sport, football is one of the most
+                        famous and popular sports in the world. Football players
+                        will train their ability to move, walk faster, and
+                        increase agility and endurance. Football is not only
+                        good for men's health, but today there are many girls
+                        who also pursue this sport.
+                      </p>
+                    </div>
+                  </div></a
+                >
+
+                <a href="https://vi.wikipedia.org/wiki/Ch%E1%BA%A1y_b%E1%BB%99"
+                  ><div class="entertain">
+                    <div
+                      class="avatar"
+                      style="
+                        background-image: url('./assets/imgs/entertain/jogging.jpg');
+                      "
+                    ></div>
+                    <div class="content">
+                      <h3>Jogging</h3>
+                      <p>
+                        Running is a form of exercise that helps you burn
+                        calories very effectively. Jogging properly, regularly
+                        combined with a diet, it is possible that science will
+                        help improve the health of the immune system. Jogging as
+                        well as other exercises has the effect of stimulating
+                        the body to increase the production of Endorphin, which
+                        helps reduce stress, improve mood, and think positively.
+                      </p>
+                    </div>
+                  </div></a
+                >
+              </div>
+
+              <div class="sub-item">
+                <h2 class="icon-title">
+                  <img src="./assets/imgs/icons/guitar.png" alt="" />
+                  Music
+                </h2>
+                <a href="https://www.youtube.com/watch?v=uzOE3c12w0U"
+                  ><div class="entertain">
+                    <div
+                      class="avatar"
+                      style="
+                        background-image: url('./assets/imgs/entertain/guitar.webp');
+                      "
+                    ></div>
+                    <div class="content">
+                      <h3>Guitarist</h3>
+                      <p>
+                        Scientists have studied and shown that children who
+                        learn guitar or are exposed to music early have better
+                        memories than their peers because music has a positive
+                        effect on the brain, Helps the brain think better.
+                        Another benefit of playing the guitar is to develop
+                        discipline for the learner, and having discipline will
+                        make it easier for you to succeed in every other area of
+                        your life.
+                      </p>
+                    </div>
+                  </div></a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="shape circle"></div>
+    <div class="shape square"></div>
+    <div class="shape star"></div>
+    <div class="shape heart"></div>
+
+    <popup id="popup">
+      <div id="closeBtn"><i class="fa-solid fa-xmark"></i></div>
+      <div class="popup-name">
+        <marquee scrollamount="3"
+          >Người anh sinh năm 96 học Cơ Khí - Bách Khoa</marquee
+        >
+      </div>
+      <div class="popup-control">
+        <div class="control">
+          <i class="fa-solid fa-backward-step"></i>
+        </div>
+        <div class="control active" id="playBtn">
+          <i class="fa-solid fa-play"></i>
+        </div>
+        <div class="control">
+          <i class="fa-solid fa-forward-step"></i>
+        </div>
+      </div>
+    </popup>
+
+    <script>
+      const aElements = document.links;
+      Array.from(aElements).forEach((a) => a.setAttribute("target", "blank"));
+    </script>
+  </body>
+</html>
+
+<!-- TaiNH  -->
